@@ -1,0 +1,97 @@
+{
+    "@context":"https://schema.org",
+    "@graph":
+    [
+        {
+            "@type":["Casino","Organization"],
+            "@id":"https://casinox-jp.com/#organization",
+            "name":"Casino X",
+            "url":"https://casinox-jp.com",
+            "image": {
+                "@type":"ImageObject",
+                "url":"https://casinox-jp.com/wp-content/themes/casinox-jp/img/casinox-logo.png"
+            },
+            "logo": {
+                "@type":"ImageObject",
+                "url":"https://casinox-jp.com/wp-content/themes/casinox-jp/img/casinox-logo.png"
+            }
+        },
+        {
+            "@type":"ImageObject",
+            "@id":"https://vulkan-vegas.de/#primaryImage",
+            "url":"https://casinox-jp.com/wp-content/uploads/2021/03/slider-banner-1.jpg"
+        },
+        {
+            "@type":"ImageObject",
+            "@id":"https://vulkan-vegas.de/#primaryImageTwo",
+            "url":"https://casinox-jp.com/wp-content/uploads/2021/03/slider-banner-2.jpg"
+        },
+        {
+            "@type":"ImageObject",
+            "@id":"https://vulkan-vegas.de/#articleImage",
+            "url":"https://casinox-jp.com/wp-content/uploads/2021/03/CasinoX-no-koushiki-saito.png"
+        },
+        {
+            "@type":"WebSite",
+            "@id":"https://casinox-jp.com/#website",
+            "url":"https://casinox-jp.com",
+            "name":"Casino X",
+            "publisher":
+            {
+                "@id":"https://casinox-jp.com/#organization"
+            },
+            "inLanguage":"ja",
+            "potentialAction":
+            {
+                "@type":"SearchAction",
+                "target":"https://casinox-jp.com/?s={search_term_string}",
+                "query-input":"required name=search_term_string"
+            }
+        },
+        {
+            "@type":"WebPage",
+            "@id":"https://casinox-jp.com/#webpage",
+            "url":"https://casinox-jp.com/",
+            "name":"Casino X ー 素晴らしいボーナスと迅速な出金",
+            "isPartOf":
+            {
+                "@id":"https://casinox-jp.com/#website"
+            },
+            "primaryImageOfPage": {
+                "@id": "https://vulkan-vegas.de/#primaryImage"
+            },
+            "image": {
+                "@id": "https://vulkan-vegas.de/#primaryImageTwo"
+            },
+            "inLanguage":"ja"
+        },
+        {
+            "@type":"Article",
+            "headline":"Casino X ー 素晴らしいボーナスと迅速な出金",
+            "description":"Casino Xで世界中のプレーヤーがいつでもどこでも遊んでいます。日本人のプレーヤーのためにカジノのサイトは完全に最適化されています。プレーヤーのサポートサービス、支払いシステム、その他のサービスは、最高の快適さとセキュリティを提供します。カジノエックス 評判について知りたいですか？",
+            "isPartOf":
+            {
+                "@id":"https://casinox-jp.com/#webpage"
+            },
+            "publisher":
+            {
+                "@id":"https://casinox-jp.com/#organization"
+            },
+            "image": {
+                "@id":"https://vulkan-vegas.de/#articleImage"
+            },
+            "datePublished":"2021-03-01",
+            "dateModified": "2021-03-22",
+            "author": "casinox",
+            "inLanguage":"ja",
+            "mainEntityOfPage":
+            {
+                "@id":"https://casinox-jp.com/#webpage"
+            }
+        }
+    ]
+}
+
+
+
+
